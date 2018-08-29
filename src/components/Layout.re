@@ -1,9 +1,15 @@
 module Styles = {
   open Css;
 
-  let root = style([display(block)]);
+  let root =
+    style([
+      backgroundColor(rgb(200, 200, 200)),
+      display(`flex),
+      flexDirection(`column),
+      minHeight(`vh(100.0)),
+    ]);
 };
-let component = ReasonReact.statelessComponent("Home");
+let component = ReasonReact.statelessComponent("Layout");
 
 let s = ReasonReact.string;
 
