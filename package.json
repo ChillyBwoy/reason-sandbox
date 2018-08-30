@@ -22,6 +22,7 @@
   "devDependencies": {
     "bs-css": "^7.1.0",
     "bs-platform": "^4.0.5",
+    "re-classnames": "^2.1.0",
     "webpack": "^4.0.1",
     "webpack-cli": "^2.0.10"
   }
